@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #B0E0E6;
+}
+.header {
+    text-align: center;
+}
+
+.header__text,
+.skills__text {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-bottom: 160px;
+}
+.skills__interest{
+    margin-left:  90px;
+    margin-top: 30px;
+}
+.skills__percent{
+    display: inline-block;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    background-color: #FFDEAD;
+    padding: 4px;
+}
+.skills__skill {
+    display: flex;
+    align-items: flex-end;
+}
+
+.skills__color {
+    width: 30px;
+    height: 30px;
+    background-color:#FFDEAD;
+    margin-right: 7px;
+}
+.skills__color--blueviolet {
+    background-color: #A5260A;
+}
+.skills__text--size {
+    font-size: 30px;
+    margin-top: 0px;
+}
+.octopus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+}
+.octopus__tentacles {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.octopus__leg {
+    display: flex;
+}
+.octopus__future {
+    width: 80px;
+    background-color: #A5260A;
+    margin-bottom: 10px;
+    z-index: 0;
+    margin-right: -44px;
+    border-radius: 45% 0 0 45%;
+}
+.octopus__future--width3 {
+    width: 55px;
+}
+.octopus__future--last {
+    margin-bottom: 0;
+}
+.octopus__paw {width: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to left,#FFDEAD 55%, #A5260A 55%);
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10% 0 0 10%;
+    z-index: 1;
+}
+.octopus__paw--width2 {
+    width: 100px;
+    background: linear-gradient(to left,#FFDEAD 55%, #A5260A 55%);
+}
+.octopus__paw--width3 {
+    width: 330px;
+}
+.octopus__paw--width4 {
+    width: 150px;
+}
+.octopus__paw--last {
+    margin-bottom: 0;
+    width: 150px;
+}
+
+.octopus__text {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+    font-size: 19px;
+}
+
+.octopus__body {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFDEAD;
+    border-radius: 3% 50% 50% 3%;
+}
+
+.octopus__eye {
+    width: 50px;
+    height: 50px;
+    background-color: #A5260A;
+    border-radius: 50%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.octopus__eyeball {
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 50%;
+
+}
